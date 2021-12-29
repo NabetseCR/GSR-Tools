@@ -1,0 +1,248 @@
+{
+    "templates": [
+        {
+            "FromOurTeam": [
+                {
+                    "scenario":"eDelivery Issues",
+                    "body":"Dear <b class='customer_name'>Customer</b>,<br><br>My name is <b class='rep_name'>Rep Name</b> and I am with TAC Entitlement team and the current owner of your case, <b class='case'>Case#</b><br><br>From the note details on your case, it appears you are not seeking technical support or hardware replacement in this instance. Instead, it looks like this is related to an eDelivery order issue. If so, please be advised that we in the Technical Assistance Center have no power to fulfill or support eDelivery issues.<br><br>For eDelivery issues you will need to seek support within the eDelivery application website itself: https://edelivery.cisco.com/esd/ or you may contact eDelivery team by sending an email to: edelivery-customer-support@cisco.com. You can also find FAQs here: https://www.cisco.com/c/dam/en_us/partners/downloads/765/tools/edelivery/FAQ.pdf.<br><br>Since we are unable to assist with e-Delivery issue and as this is not a technical issue, I will be closing the case by end of next business day. I apologize for the inconvenience.<br><br>Regards,<br><b class='rep_name'>Rep Name</b><br>Global Service Relations Global Customer Experience Centers<br>.:|:.:|:.:|:.<br>c i s c o<br>This email may contain confidential and privileged material for the sole use of the intended recipient. Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender by reply email and delete all copies of this message.",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"PUT - MCE ISSUES  (Bootable Files)",
+                    "body":"Dear <b class='customer_name'>Customer</b>,<br><br>My name is <b class='rep_name'>Rep Name</b> and I am with TAC Entitlement team and the current owner of your case, <b class='case'>Case#</b><br><br>After reading the case notes included in the service request, I understand that you need assistance downloading a bootable file.<br>Kindly informed OVA files, Communications CD/DVD Software, or Bootable images requests can be requested via MCE and only available from the commercial site. Cisco Technical Support nor Entitlement enterprise team does not provide service for this type of request.<br>For End Customers Product Upgrade Tool will be redirected starting from May 16, 2020. to the MCE, where they can continue to perform software version upgrades through 'Version Upgrade'.<br><br>More info and steps could be shared over:    https://www.cisco.com/c/dam/en/us/td/docs/entitlement_asset_mgmt/docs/MCE_User_Guide_Version_Upgrade.pdf<br>Scenario 1: If you have a software service contract, directly with Cisco covering your software product, you may be able to order a copy of the software OVA files or CD by using My Cisco Entitlement (MCE) Tool located at:    https://mce.cisco.com/mce/#/login/portal<br><br>In order to use My Cisco Entitlement Tool, you must first have a Cisco.com ID that is linked to your software contract.<br><br>   Scenario 2: If the MCE Tool doesn't display this information, you will need to open a ticket with the MCE Support team for assistance. To open a case with MCE Support team, please follow the below steps: Access MCE support using Support Case Manager. Please click Open a New Case, pull-down to select Software Licensing, and choose My Cisco Entitlements (MCE) for the category.<br><br>Since PUT or MCE issues are not handled by TAC, we will proceed to close this case. We apologize for the inconvenience.<br><br>Regards,<br><b class='rep_name'>Rep Name</b><br>Global Service Relations<br>Global Customer Experience Centers<br>.:|:.:|:.:|:.<br>c i s c o<br>This email may contain confidential and privileged material for the sole use of the intended recipient. Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender by reply email and delete all copies of this message",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Request is out of our scope",
+                    "body":"Dear <b class='customer_name'>Customer</b><br><br>Thank you for contacting Cisco.<br>My name is <b class='rep_name'>Rep Name</b> and I am with the TAC Entitlement Team. I have taken ownership of your case <b class='case'>Case#</b><br><br>The reason your service request has come to the entitlement team is because you have some Quote inquiries.<br>Unfortunately your request is out of our scope, our cases are strictly for tech support (Break & Fix) and your request is related to Customer Service. Please contact our front line team at +1800-553-6387 Option 1 > 2 for further assistance, they will able to help you with the information you are looking for.<br><br>Since this isn't an issue the Technical Assistance Center helps with, I will now proceed with putting your case in 'Close Pending' status and will close the case at the end of today's business day.<br><br>We apologize for the inconvenience.<br><br><br>Regards,<br><b class='rep_name'>Rep Name</b>Global Service Relations<br>Global Customer Experience Centers<br><br>.:|:.:|:.:|:.<br>c i s c o<br><br>This email may contain confidential and privileged material for the sole use of the intended recipient. Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender by reply email and delete all copies of this message.",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"CCW-R (CSCC) Issues",
+                    "body":"",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"SWEEPS || Contract without SN",
+                    "body":"",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"},
+                        {"contract": "Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Duplicate Case",
+                    "body":"",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"},
+                        {"oldcase": "Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Software Download issues || Contract was not associated",
+                    "body":"",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"producttype":"Radio Button"},
+                        {"customerccoid": "Text Input"},
+                        {"contract": "Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Temporary link sent and SWDL Escalation",
+                    "body":"",
+                    "parameters":[
+                        {"customerccoid": "Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Follow up || SWDL Escalation case",
+                    "body":"",
+                    "parameters":[
+                        {"customername": "Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Software download issue has been resolved",
+                    "body":"",
+                    "parameters":[
+                        {"customername": "Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Invalid Cisco ID",
+                    "body":"",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Assistance with EEM/ESM scripting",
+                    "body":"",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"VIRL support",
+                    "body":"",
+                    "parameters":"n/a"
+                },
+                {
+                    "scenario":"CML-Personal Issues",
+                    "body":"",
+                    "parameters":"n/a"
+                },
+                {
+                    "scenario":"Umbrella support",
+                    "body":"",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"DevNet Support",
+                    "body":"",
+                    "parameters":[
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"NOT ENTITLE UNDER CONTRACT",
+                    "body":"",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"serialnumber":"Text Input"},
+                        {"productname": "Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"WEBEX CASES without CCOID",
+                    "body":"",
+                    "parameters":"n/a"
+                },
+                {
+                    "scenario":"Secondary market v1",
+                    "body":"",
+                    "parameters":"n/a"
+                },
+                {
+                    "scenario":"Secondary market v2",
+                    "body":"",
+                    "parameters":[ 
+                        {"repname":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Export team issue",
+                    "body":"",
+                    "parameters":"n/a"
+                }
+            ]
+        },
+        {
+            "FromLigthning": [
+                {
+                    "useful_folders":[
+                        "CIN Cisco.com", "CIN Licensing", "CIN Notes Entitlement templates", "Notes Template", "Support templates"
+                    ]
+                }
+            ]
+        }
+    ],
+    "notes":[
+        {
+            "scenario":"Entitled for Sev 1 bypass",
+            "body":"Entitlement Notes:<br><br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s):<b class='contract'>Contract</b><br>Research: The above device is not under contract but we can use the S1 bypass since the customer is Access Level 3.<br>Entitled for: TAC support only, RMA and SW updates not included.<br>Reason entitled: See above",
+            "parameters":[
+                {"pid":"Text Input"}, 
+                {"sn/pak":"Text Input"},
+                {"contract":"Text Input"}
+            ]
+        },
+        {
+            "scenario":"NOT Entitled",
+            "body":"",
+            "parameters":[
+                {"pid":"Text Input"}, 
+                {"sn/pak":"Text Input"},
+                {"contract":"Text Input"},
+                {"expirationdate":"Text Input"}
+            ]
+        },
+        {
+            "scenario":"RMA Entitled not TAC support",
+            "body":"",
+            "parameters":[
+                {"pid":"Text Input"}, 
+                {"sn/pak":"Text Input"},
+                {"contract":"Text Input"}
+            ]
+        },
+        {
+            "scenario":"SWDL Escalation || Case creation",
+            "body":"",
+            "parameters":[
+                {"customerccoid":"Text Input"}, 
+                {"pid":"Text Input"},
+                {"contract":"Text Input"},
+                {"url":"Text Input"}
+            ]
+        },
+        {
+            "scenario":"Customer has been affected with Vulnerability",
+            "body":"",
+            "parameters":[
+                {"vulnerability":"Text Input"}, 
+                {"advisoryid":"Text Input"},
+                {"workarounds":"Text Input"},
+                {"ciscobugids":"Text Input"},
+                {"status":"Text Input"}
+            ]
+        },
+        {
+            "scenario":"Customer is seeking assistance with XXXX but the case has been opened without any information.",
+            "body":"",
+            "parameters":[
+                {"pid":"Text Input"},
+                {"companyname":"Text Input"}
+            ]
+        },
+        {
+            "scenario":"Validate Bypass with a Cisco Employee via webex chat",
+            "body":"",
+            "parameters":"n/a"
+        }
+    ],
+    "procedures":[
+
+    ]
+}

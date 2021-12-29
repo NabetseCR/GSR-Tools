@@ -1,0 +1,48 @@
+@font-face {
+    font-family: ciscoSans;
+    src: url("../fonts/CiscoSans.woff");
+}
+
+body{
+    font-family: ciscoSans;
+}
+
+.black{
+    color: #242424;
+}
+
+.white{
+    color: 	#ffffff !important;
+}
+
+.primary_blue{
+    color: #0499d0;
+}
+
+.secondary_blue{
+    color: #0489ba;
+}
+
+.terciary_blue{
+    color: #04a0db;
+}
+
+.primary_bg{
+    background-color: #0499d0 !important;
+}
+
+.secondary_bg{
+    background-color: #0489ba !important;
+}
+
+.terciary_bg{
+    background-color: #04a0db !important;
+}
+
+nav{
+    margin-bottom: 2rem;
+}
+
+.nav-link:hover{
+    color: antiquewhite !important;
+}
