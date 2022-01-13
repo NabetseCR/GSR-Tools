@@ -149,12 +149,20 @@ function changeCUName(){
     $('.customer_name').text($('#inputcuname').val());
 }
 
+function changeCustomerCCOID(){
+    $('.customer_ccoid').text($('#inputcuccid').val());
+}
+
 function changeRepName(){
     $('.rep_name').text($('#inputrepname').val());
 }
 
 function changeCase(){
     $('.case').text($('#inputcase').val());
+}
+
+function changeOldCase(){
+    $('.old_case').text($('#inputoldcase').val());
 }
 
 function changeSerialNumber(){

@@ -63,7 +63,8 @@
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputPassword4">Customer CCOID</label>
-                            <input type="text" class="form-control" id="inputcuccid" placeholder="Customer CCID">
+                            <input type="text" class="form-control" id="inputcuccid" placeholder="Customer CCID"
+                              autocomplete="false" onkeyup="changeCustomerCCOID()">
                         </div>
                     </div>
                     <div class="form-row">
@@ -71,6 +72,11 @@
                             <label for="inputEmail4">Rep name</label>
                             <input type="text" class="form-control" id="inputrepname" placeholder="Engineer name"
                                 autocomplete="false" onkeyup="changeRepName()">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Old Case</label>
+                            <input type="text" class="form-control" id="inputoldcase" placeholder="69345607"
+                                autocomplete="false" onkeyup="changeOldCase()">
                         </div>
                     </div>
                     <div class="form-group">
