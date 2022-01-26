@@ -34,7 +34,7 @@
 
     <div class="container" id="landingPageContent">
         <div class="jumbotron">
-            <h1 class="display-4">Hello, TEST!</h1>
+            <h1 class="display-4">Hello, Team!</h1>
             <p class="lead">This is a simple tool to remember procedures and find out scripts that might be going to
                 help
                 you during the calls</p>
@@ -84,6 +84,11 @@
                         <input type="text" class="form-control" id="inputcase" placeholder="691085454"
                             autocomplete="false" onkeyup="changeCase()">
                     </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Company</label>
+                        <input type="text" class="form-control" id="inputcompany" placeholder="Company INC"
+                            autocomplete="false" onkeyup="changeCompany()">
+                    </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputEmail4">PAK/ Serial Number</label>
@@ -96,10 +101,41 @@
                                 autocomplete="false" onkeyup="changeContract()">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="inputAddress">PID</label>
-                        <input type="text" class="form-control" id="inputpid" placeholder="AIR-CT2504-HA-K9"
-                            autocomplete="false" onkeyup="changePID()">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputAddress">PID</label>
+                            <input type="text" class="form-control" id="inputpid" placeholder="AIR-CT2504-HA-K9"
+                                autocomplete="false" onkeyup="changePID()">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Date</label>
+                            <input type="text" class="form-control" id="inputdate" placeholder="Expiration date"
+                                autocomplete="false" onkeyup="changeDate()">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Vulnerability</label>
+                            <input type="text" class="form-control" id="inputvulnerability" placeholder="Vulnerability Name"
+                                autocomplete="false" onkeyup="changeVulnerability()">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Advisory ID</label>
+                            <input type="text" class="form-control" id="inputadvisory" placeholder="Advisory ID"
+                                autocomplete="false" onkeyup="changeAdvisory()">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputAddress">Cisco Bug ID</label>
+                            <input type="text" class="form-control" id="inputbug" placeholder="Bug Id"
+                                autocomplete="false" onkeyup="changeBugId()">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Status</label>
+                            <input type="text" class="form-control" id="inputStatus" placeholder="Critical/High/.."
+                                autocomplete="false" onkeyup="changeStatus()">
+                        </div>
                     </div>
                 </form>
             </div>

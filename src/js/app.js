@@ -161,6 +161,10 @@ function changeCase(){
     $('.case').text($('#inputcase').val());
 }
 
+function changeCompany(){
+    $('.company').text($('#inputcompany').val());
+}
+
 function changeOldCase(){
     $('.old_case').text($('#inputoldcase').val());
 }
@@ -173,10 +177,29 @@ function changeContract(){
     $('.contract').text($('#inputcontract').val());
 }
 
+function changeDate(){
+    $('.date').text($('#inputdate').val());
+}
+
 function changePID(){
     $('.pid').text($('#inputpid').val());
 }
 
+function changeVulnerability(){
+    $('.vulnerability').text($('#inputvulnerability').val());
+}
+
+function changeAdvisory(){
+    $('.advisory').text($('#inputadvisory').val());
+}
+
+function changeBugId(){
+    $('.bug').text($('#inputbug').val());
+}
+
+function changeStatus(){
+    $('.status').text($('#inputStatus').val());
+}
 
 function copyElementText() {
     var text = document.getElementById('templateBody').innerText;

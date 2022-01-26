@@ -185,7 +185,17 @@
         },
         {
             "scenario":"NOT Entitled",
-            "body":"",
+            "body":"Entitlement Notes:<br><br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s): <b class='contract'>Contract</b> EXPIRED since <b class='date'>Date</b><br><br>Research: Device is not under an active contract.<br><br>Entitled for: Not Entitled<br><br>Reason not entitled: Not under an active Contract",
+            "parameters":[
+                {"pid":"Text Input"}, 
+                {"sn/pak":"Text Input"},
+                {"contract":"Text Input"},
+                {"expirationdate":"Text Input"}
+            ]
+        },
+        {
+            "scenario":"Entitled under contract",
+            "body":"Entitlement Notes:<br><br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s): <b class='contract'>Contract</b><br><br>Research: <b class='pid'>PID</b> is covered by contract <b class='contract'>Contract</b>.<br><br>Entitled for: Not Entitled<br><br>Reason not entitled: Not under an active Contract<br><br>Entitled for TAC support (ECDN)<br>Reason entitled: Under contract",
             "parameters":[
                 {"pid":"Text Input"}, 
                 {"sn/pak":"Text Input"},
@@ -195,7 +205,7 @@
         },
         {
             "scenario":"RMA Entitled not TAC support",
-            "body":"",
+            "body":"Entitlement Notes:<br><br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s): <b class='contract'>Contract</b><br><br>Research: The above device is not under an active contract for TAC and warranty only offers HW replacement.<br>Reason not entitled for TAC: device is not under an active contract",
             "parameters":[
                 {"pid":"Text Input"}, 
                 {"sn/pak":"Text Input"},
@@ -203,18 +213,8 @@
             ]
         },
         {
-            "scenario":"SWDL Escalation || Case creation",
-            "body":"",
-            "parameters":[
-                {"customerccoid":"Text Input"}, 
-                {"pid":"Text Input"},
-                {"contract":"Text Input"},
-                {"url":"Text Input"}
-            ]
-        },
-        {
             "scenario":"Customer has been affected with Vulnerability",
-            "body":"",
+            "body":"Customer has been affected with Vulnerability.<br><br>Vulnerability: <b class='vulnerability'>Vulnerability</b><br>Entitlement Notes:<br><br>Advisory ID: <b class='advisory'>Advisory</b><br>Workarounds: No workarounds available<br>Cisco Bug IDs: <b class='bug'>Bug</b><br>Status:<b class='status'>Status</b><br><br>Customer is entitled under the bypass for PSIRT or Field Notice",
             "parameters":[
                 {"vulnerability":"Text Input"}, 
                 {"advisoryid":"Text Input"},
@@ -224,8 +224,8 @@
             ]
         },
         {
-            "scenario":"Customer is seeking assistance with XXXX but the case has been opened without any information.",
-            "body":"",
+            "scenario":"Customer entitle after a blind search",
+            "body":"I did a blind search using the CCO and the company name (<b class='company'>Company</b>) and I found the correct information.<br><br>Entitlement Notes:<br><br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s): <b class='contract'>Contract</b><br><br>Research: <b class='pid'>PID</b> is covered by contract <b class='contract'>Contract</b>.<br><br>Entitled for: Not Entitled<br><br>Reason not entitled: Not under an active Contract<br><br>Entitled for TAC support (ECDN)<br>Reason entitled: Under contract",
             "parameters":[
                 {"pid":"Text Input"},
                 {"companyname":"Text Input"}
@@ -233,7 +233,17 @@
         },
         {
             "scenario":"Validate Bypass with a Cisco Employee via webex chat",
-            "body":"",
+            "body":"I need you to confirm me the following to validate the bypass:<br><br>- Your or a Cisco Employee will remain as the Point of contact on this case, and this Point of Contact will handle all communications between the end Customer and the TAC Engineer. As customer cannot work directly with the engineer.<br>- You cannot say (as an example) 'Please contact John at American Airlines to continue troubleshooting without me', as this Point of Contact must be actively working on this case form start to finish.<br>If you can validate me these I can validate the bypass and forward it to TAC.",
+            "parameters":"n/a"
+        },
+        {
+            "scenario":"Not related GSR case send from Licensing",
+            "body":"Entitlement team only manages entitlement issues to receive TAC support or to download Software from the Software Central, as stated on task https://wwwin.cisco.com/c/cec/organizations/cisco-services/ts/tso/gtc/cin/agent/glo/gsr-entitlement-logistics.html 'GSR: for SW download and TAC support entitlement questions.' this request is not under either, redirect customer properly, do not route over to entitlement when there is no entitlement/technical issue, we're the TAC Entitlement team not the Sales department and therefore we cannot assist with contract/product acquisition questions.",
+            "parameters":"n/a"
+        },
+        {
+            "scenario":"EOL covered under active contract",
+            "body":"EOL device is covered under extended support contract, support must be provided since the contract overrides the EOL status<br>'End-of-Support / Last Day of Support (LDoS)  date for most hardware products is normally five years after the end-of-sale date. Once a product passes its LDoS date, it is no longer officially supported by the TAC. Contracts may not be sold on this product, Logistics does not spare replacements for RMAs, and Service Relations may not sell T&M TAC support or RMA replacements. If a product comes up as LDoS but it still covered (active) under a valid contract, the TAC will support the product; however software upgrades are likely not being supported.  This is common for products under contracts sold through Migration Support Services.'",
             "parameters":"n/a"
         }
     ],
