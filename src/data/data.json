@@ -195,7 +195,7 @@
         },
         {
             "scenario":"Entitled under contract",
-            "body":"Entitlement Notes:<br><br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s): <b class='contract'>Contract</b><br><br>Research: <b class='pid'>PID</b> is covered by contract <b class='contract'>Contract</b>.<br><br>Entitled for: Not Entitled<br><br>Reason not entitled: Not under an active Contract<br><br>Entitled for TAC support (ECDN)<br>Reason entitled: Under contract",
+            "body":"Entitlement Notes:<br><br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s): <b class='contract'>Contract</b><br><br>Research: <b class='pid'>PID</b> is covered by contract <b class='contract'>Contract</b>.<br><br>Entitled for TAC support (ECDN)<br>Reason entitled: Under contract",
             "parameters":[
                 {"pid":"Text Input"}, 
                 {"sn/pak":"Text Input"},
@@ -225,7 +225,7 @@
         },
         {
             "scenario":"Customer entitle after a blind search",
-            "body":"I did a blind search using the CCO and the company name (<b class='company'>Company</b>) and I found the correct information.<br><br>Entitlement Notes:<br><br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s): <b class='contract'>Contract</b><br><br>Research: <b class='pid'>PID</b> is covered by contract <b class='contract'>Contract</b>.<br><br>Entitled for: Not Entitled<br><br>Reason not entitled: Not under an active Contract<br><br>Entitled for TAC support (ECDN)<br>Reason entitled: Under contract",
+            "body":"I did a blind search using the CCO and the company name (<b class='company'>Company</b>) and I found the correct information.<br><br>Entitlement Notes:<br><br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s): <b class='contract'>Contract</b><br><br>Research: <b class='pid'>PID</b> is covered by contract <b class='contract'>Contract</b>.<br><br>Entitled for TAC support (ECDN)<br>Reason entitled: Under contract",
             "parameters":[
                 {"pid":"Text Input"},
                 {"companyname":"Text Input"}
