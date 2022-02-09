@@ -12,8 +12,62 @@
                     ]
                 },
                 {
-                    "scenario":"PUT - MCE ISSUES  (Bootable Files)",
-                    "body":"Dear <b class='customer_name'>Customer</b>,<br><br>My name is <b class='rep_name'>Rep Name</b> and I am with TAC Entitlement team and the current owner of your case, <b class='case'>Case#</b><br><br>After reading the case notes included in the service request, I understand that you need assistance downloading a bootable file.<br>Kindly informed OVA files, Communications CD/DVD Software, or Bootable images requests can be requested via MCE and only available from the commercial site. Cisco Technical Support nor Entitlement enterprise team does not provide service for this type of request.<br>For End Customers Product Upgrade Tool will be redirected starting from May 16, 2020. to the MCE, where they can continue to perform software version upgrades through 'Version Upgrade'.<br><br>More info and steps could be shared over:    https://www.cisco.com/c/dam/en/us/td/docs/entitlement_asset_mgmt/docs/MCE_User_Guide_Version_Upgrade.pdf<br>Scenario 1: If you have a software service contract, directly with Cisco covering your software product, you may be able to order a copy of the software OVA files or CD by using My Cisco Entitlement (MCE) Tool located at:    https://mce.cisco.com/mce/#/login/portal<br><br>In order to use My Cisco Entitlement Tool, you must first have a Cisco.com ID that is linked to your software contract.<br><br>   Scenario 2: If the MCE Tool doesn't display this information, you will need to open a ticket with the MCE Support team for assistance. To open a case with MCE Support team, please follow the below steps: Access MCE support using Support Case Manager. Please click Open a New Case, pull-down to select Software Licensing, and choose My Cisco Entitlements (MCE) for the category.<br><br>Since PUT or MCE issues are not handled by TAC, we will proceed to close this case. We apologize for the inconvenience.<br><br>Regards,<br><b class='rep_name'>Rep Name</b><br>Global Service Relations<br>Global Customer Experience Centers<br>.:|:.:|:.:|:.<br>c i s c o<br>This email may contain confidential and privileged material for the sole use of the intended recipient. Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender by reply email and delete all copies of this message",
+                    "scenario":"Meraki Support",
+                    "body":"Dear <b class='customer_name'>Customer</b>,<br><br>Thank you for contacting Cisco.<br>My name is <b class='rep_name'>Rep Name</b> and I am with the TAC Entitlement Team/Service Relations. I have taken ownership of your case <b class='case'>Case#</b>.<br><br>The Meraki support it's out of our scope<br><br>For all questions about RMA return you can contact<br>Meraki at Returns@meraki.com or via phone +1 415 432 1532<br><br>Sales Inquiries<br>Sales Support by Phone: check https://meraki.cisco.com/form/contact<br><br>Order Inquiries<br>Order Modification/Cancellations, Order Status, Hold or Release inquiries, email orders@meraki.com<br>Shipping Logistics issues: email shipping@meraki.com<br>Order Fulfillment issues: orders@meraki.com<br><br>Technical Support<br>Technical Support by Phone: check http://meraki.cisco.com/support/<br>Technical Support via Email: support@meraki.com<br><br>RMA<br>Initiation of RMA via Web or by phone: http://meraki.com/RMA<br>Submission of RMA questions via email: returns@meraki.com<br>Meraki Partner (sales) Portal Access<br>See instructions on Meraki Partner (sales) Portal access: https://wwwin.cisco.com/c/cec/organizations/cisco-services/ts/tso/gtc/cin/agent/cfl/meraki-partner.html<br><br>As this is not a TAC supported case, I'll proceed with the case closure for now<br><br><br>Regards,<br><b class='rep_name'>Rep Name</b><br>Global Service Relations<br>Global Customer Experience Centers<br><br>.:|:.:|:.:|:.<br>c i s c o<br><br>This email may contain confidential and privileged material for the sole use of the intended recipient. Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender by reply email and delete all copies of this message.",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"EEM/ Scripts Devnet custom scripts",
+                    "body":"Dear <b class='customer_name'>Customer</b>,<br><br>Thank you for contacting Cisco.<br>My name is <b class='rep_name'>Rep Name</b> and I am with the TAC Entitlement Team/Service Relations. I have taken ownership of your case <b class='case'>Case#</b><br>Please be advised that our Cisco TAC does not provide assistance on configuring scripts given the amount of variables and the Customization of the script itself for each customer. TAC is a break & fix organization and does not have sufficient knowledge of your network, services and applications and end to end business requirement and future plans to be able to provide you with an educated recommendation.<br>However, we strongly advise that you contact your Cisco Account Team, Sales Representative Person or Advanced Services, because he/she will be able to help you or even indicate a NOS (Network Optimization Support) or a NCE (Network Consulting Engineer) to help you on this matter.<br>Since this isn't a request the Technical Assistance Center (TAC) helps with, we will proceed with the case closure at this time.<br><br>Regards,<br><b class='rep_name'>Rep Name</b><br>Global Service Relations<br>Global Customer Experience Centers<br><br>.:|:.:|:.:|:.<br>c i s c o<br><br>This email may contain confidential and privileged material for the sole use of the intended recipient. Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender by reply email and delete all copies of this message.",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Fluidmesh Support",
+                    "body":"Dear <b class='customer_name'>Customer</b>,<br><br>Thank you for contacting Cisco.<br>My name is <b class='rep_name'>Rep Name</b> and I am with the TAC Entitlement Team/Service Relations. I have taken ownership of your case <b class='case'>Case#</b><br><br><br>Fluidmesh customers should continue to use the same process to engage Fluidmesh technical support. Cisco will notify you of any changes well in advance of the transition date.<br><br>To open service request you will need a Cisco.com user ID.<br><br>Email: support@fluidmesh.com (include your new Cisco.com user ID)<br>Phone: +1 617-209-6080, option 2 (include your new Cisco.com user ID)<br><br>USA: 9am - 7pm EST Monday-Friday<br>Italy: 9am - 7pm CET Monday-Friday<br><br>Since this isn't an issue the Cisco Technical Assistance Center (TAC) helps with, we will proceed with the case closure at this time.<br><br>Regards,<br><b class='rep_name'>Rep Name</b><br>Global Service Relations<br>Global Customer Experience Centers<br><br>.:|:.:|:.:|:.<br>c i s c o<br><br>This email may contain confidential and privileged material for the sole use of the intended recipient. Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender by reply email and delete all copies of this message.",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Incomplete Profile",
+                    "body":"Dear <b class='customer_name'>Customer</b>,<br><br>Thank you for contacting Cisco.<br>My name is <b class='rep_name'>Rep Name</b> and I am with the TAC Entitlement Team/Service Relations. I have taken ownership of your case <b class='case'>Case#</b><br>The reason your service request has come to the entitlement team is because after checking the service request we found that currently the information on your cisco.com profile is incomplete which is preventing us from moving forward with this case.<br><br>Please contact our back office team at web-help@cisco.com and request them to update your profile information (Company Name and Address are missing).<br><br>Please make sure to include the following information on your email to them:<br><br>Organization/Company Name<br>Physical address Line 1<br>Physical address Line 2<br>City<br>State/Province/Region<br>Country<br>Zip/Postal Code<br><br>Once again, the information requested above must be sent to web-help@cisco.com so they can assist with updating the information so we can send this case over to our technical teams.<br><br>Regards,<br><b class='rep_name'>Rep Name</b><br>Global Service Relations<br>Global Customer Experience Centers<br><br>.:|:.:|:.:|:.<br>c i s c o<br><br>This email may contain confidential and privileged material for the sole use of the intended recipient. Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender by reply email and delete all copies of this message.",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Off shift",
+                    "body":"Dear sender,<br><br>I'm currently off-shift with no access to my email/voicemail and I'll be back on [Day] ([hour] EST). If you need immediate assistance please proceed to requeue your case so the next available representative can assist you, otherwise I will get back to you on [Day].<br><br>Regards,<br><b class='rep_name'>Rep Name</b><br>Global Service Relations<br>Global Customer Experience Centers<br><br>.:|:.:|:.:|:.<br>c i s c o",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"Off shift (Vacations)",
+                    "body":"Dear sender,<br><br>I'm currently Out Of Office and I'll be back on [date] ([hour] EST). If you need assistance please contact my point of contact, [POC Name] at email [cco]@cisco.com, while I'm out of the office or proceed to requeue your case so the next available representative can assist you.<br><br>Regards,<br><b class='rep_name'>Rep Name</b><br>Global Service Relations<br>Global Customer Experience Centers<br><br>.:|:.:|:.:|:.<br>c i s c o",
+                    "parameters":[
+                        {"customername":"Text Input"}, 
+                        {"repname":"Text Input"},
+                        {"case":"Text Input"}
+                    ]
+                },
+                {
+                    "scenario":"SAMt Admin related queries",
+                    "body":"Dear <b class='customer_name'>Customer</b>,<br><br>Thank you for contacting Cisco.<br>My name is <b class='rep_name'>Rep Name</b> and I am with the TAC Entitlement Team/Service Relations. I have taken ownership of your case <b class='case'>Case#</b><br>Unfortunately your request is out of our scope, our cases are strictly for tech support (Break & Fix) and your request is related to SAMtAdmin tool. For SAMt Admin related queries pease visit:<br>For benefits: http://www.cisco.com/web/applicat/spptauth/serviceaccessmgmtoverview.html<br>For training: http://www.cisco.com/web/applicat/spptauth/serviceaccessmgmttraining.html<br>For technical questions on how to use SAMt: http://www.cisco.com/web/applicat/spptauth/serviceaccessmgmthelp.html<br><br>If you cannot find the answer to your request, please send your question to Services Entitlement team at 'services-entitlement-help@cisco.com' (you should receive a response within one business day).<br><br><br><br>Also if this is for a SAMT admin request, send the below information to 'services-entitlement-help@cisco.com':<br><br>Description of request: SAMt Admin Access Request<br>FIRST/LAST name<br>Cisco.com ID to be made a SAMT admin<br>Company name<br>Email address<br>Phone number<br>Contract number(s)or Bill to ID(s) - (list all contract numbers or Bill to IDs to be administered)<br>Type of SAMT Access needed: Contract level, Bill to ID level or Both<br>Name of Cisco Acc Manager<br><br>Since this isn't an issue the Technical Assistance Center (TAC) helps with, we will proceed with the case closure at this time.<br><br>Regards,<br><b class='rep_name'>Rep Name</b><br>Global Service Relations<br>Global Customer Experience Centers<br><br>.:|:.:|:.:|:.<br>c i s c o<br><br>This email may contain confidential and privileged material for the sole use of the intended recipient. Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender by reply email and delete all copies of this message.",
                     "parameters":[
                         {"customername":"Text Input"}, 
                         {"repname":"Text Input"},
@@ -185,7 +239,7 @@
         },
         {
             "scenario":"NOT Entitled",
-            "body":"Entitlement Notes:<br><br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s): <b class='contract'>Contract</b> EXPIRED since <b class='date'>Date</b><br><br>Research: Device is not under an active contract.<br><br>Entitled for: Not Entitled<br><br>Reason not entitled: Not under an active Contract",
+            "body":"Entitlement Notes<br><br>Accepted from: BIN<br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s):<b class='contract'>Contract</b><br>Research: is requesting support on SN which is an <b class='pid'>PID</b> but it is not covered by contract (expired since <b class='date'>Expiration Date</b>) or warranty.<br>Entitled to: Not entitled at this time.<br>If RMA is required or if there are questions about Hardware Entitlement, please contact the LSC Entitlement team<br><br>Thanks,<br>Cisco Global Service Relations<br>",
             "parameters":[
                 {"pid":"Text Input"}, 
                 {"sn/pak":"Text Input"},
@@ -239,6 +293,16 @@
         {
             "scenario":"Not related GSR case send from Licensing",
             "body":"Entitlement team only manages entitlement issues to receive TAC support or to download Software from the Software Central, as stated on task https://wwwin.cisco.com/c/cec/organizations/cisco-services/ts/tso/gtc/cin/agent/glo/gsr-entitlement-logistics.html 'GSR: for SW download and TAC support entitlement questions.' this request is not under either, redirect customer properly, do not route over to entitlement when there is no entitlement/technical issue, we're the TAC Entitlement team not the Sales department and therefore we cannot assist with contract/product acquisition questions.",
+            "parameters":"n/a"
+        },
+        {
+            "scenario":"Sending case to Licensing, customer is asking for licensing assistance",
+            "body":"Entitlement Notes<br><br>Accepted from: BIN<br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s): <b class='contract'>Contract</b><br>Research: is requesting licensing support. As licensing does their own entitlement, I am forwarding this case to licensing for support.<br>Entitled to: Not an entitlement issue at this time.<br>If RMA is required or if there are questions about Hardware Entitlement, please contact the LSC Entitlement team<br><br>Thanks,<br>Cisco Global Service Relations",
+            "parameters":"n/a"
+        },
+        {
+            "scenario":"Sending case to Licensing to proceed with a MCE escalation",
+            "body":"Bootable ISOs required which are not available through the Software Central, these files must be requested through the MCE tool (formerly PUT tool) which is out of entitlement/TAC scope as it has a dedicated escalation team, routing to licensing, please escalate to the appropriate MCE team for further assistance.",
             "parameters":"n/a"
         },
         {

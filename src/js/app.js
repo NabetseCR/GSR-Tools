@@ -1,4 +1,5 @@
 var t = "";
+var s = "";
 var steps = new Array();
 var notes = new Array();
 var template = "";
@@ -248,8 +249,10 @@ function formatEmailBody(index){
     .then(response => response.json())
     .then(function(data) {
         t = data.templates[0].FromOurTeam[index].body;
+        s = data.templates[0].FromOurTeam[index].scenario;
     })
     .then(function(){
+        document.getElementById("templateTitle").innerText = s;
         document.getElementById("templateBody").innerHTML = t;
     });
 }
