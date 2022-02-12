@@ -50,10 +50,17 @@
         <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12">
                 <form>
-                    <div class="form-group">
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#templateModal">
-                            Select Template
-                          </button>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#templateEmailModal">
+                                Select Email Template
+                            </button>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#templateNoteModal">
+                                Select Note Template
+                            </button>
+                        </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
@@ -154,58 +161,65 @@
         </div>
     </div>
 
-    <div class="modal fade" id="templateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="templateEmailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Select Template</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Select Template</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Email Templates</h6>
+                    <br>
+                    <table class="table" id="template_Table_Body">
+                        <thead>
+                            <tr>
+                                <th scope="col">Scenario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
             </div>
-            <div class="modal-body">
-                <h6>Email Templates</h6>
-                <br>
-                <table class="table" id="template_Table_Body">
-                    <thead>
-                      <tr>
-                        <th scope="col">Scenario</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
-                <br>
-                <h6>Notes Templates</h6>
-                <br>
-                <table class="table" id="notes_Table_Body">
-                    <thead>
-                      <tr>
-                        <th scope="col">Scenario</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
-                <br>
-                <h6>Useful Lightning Folders</h6>
-                <br>
-                <table class="table" id="lightning_Table_Body">
-                    <thead>
-                      <tr>
-                        <th scope="col">Folder</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
+
+    <div class="modal fade" id="templateNoteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Select Template</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Notes Templates</h6>
+                    <br>
+                    <table class="table" id="notes_Table_Body">
+                        <thead>
+                            <tr>
+                                <th scope="col">Scenario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="primary_bg text-center text-lg-start" id="footer">
         <div class="text-center p-3 white">

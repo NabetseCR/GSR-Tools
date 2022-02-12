@@ -288,8 +288,10 @@ function formatNoteBody(index){
     .then(response => response.json())
     .then(function(data) {
         t = data.notes[index].body;
+        s = data.notes[index].scenario;
     })
     .then(function(){
+        document.getElementById("templateTitle").innerText = s;
         document.getElementById("templateBody").innerHTML = t;
     });
 }
