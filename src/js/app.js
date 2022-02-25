@@ -162,6 +162,14 @@ function changeCase(){
     $('.case').text($('#inputcase').val());
 }
 
+function changeActions(){
+    $('.actions').text($('#inputaction').val());
+}
+
+function changeFindings(){
+    $('.findings').text($('#inputfinding').val());
+}
+
 function changeCompany(){
     $('.company').text($('#inputcompany').val());
 }

@@ -229,6 +229,15 @@
     ],
     "notes":[
         {
+            "scenario":"QUALITY: Taking a case",
+            "body":"Taking case note:<br><br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s):<b class='contract'>Contract</b><br>Actions taken:<b class='actions'>- Reviewed case notes but didn't find any SN - Sent email to confirm device where support is needed</b><br>Findings:<b class='findings'>Pending entitlement.</b>",
+            "parameters":[
+                {"pid":"Text Input"}, 
+                {"sn/pak":"Text Input"},
+                {"contract":"Text Input"}
+            ]
+        },
+        {
             "scenario":"Entitled for Sev 1 bypass",
             "body":"Entitlement Notes:<br><br>Department: GSR<br>Product(s):<b class='pid'>PID</b><br>SN(s) / PAK(s):<b class='serial'>Serial Number</b><br>Contract(s):<b class='contract'>Contract</b><br>Research: The above device is not under contract but we can use the S1 bypass since the customer is Access Level 3.<br>Entitled for: TAC support only, RMA and SW updates not included.<br>Reason entitled: See above",
             "parameters":[
