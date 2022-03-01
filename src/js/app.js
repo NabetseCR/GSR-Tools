@@ -162,6 +162,10 @@ function changeCase(){
     $('.case').text($('#inputcase').val());
 }
 
+function changechangeReasons(){
+    $('.reasons').text($('#inputreason').val());
+}
+
 function changeActions(){
     $('.actions').text($('#inputaction').val());
 }
