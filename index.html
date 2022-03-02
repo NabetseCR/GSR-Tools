@@ -28,6 +28,9 @@
                 <li class="nav-item">
                     <a class="nav-link white" onclick="formatTemplate()" href="#">Templates</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link white" onclick="formatProcedure()" href="#">Procedures</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -231,6 +234,140 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="procedureContent">
+        <div id="accordion" style="padding-bottom: 15px;">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#fluidmesh" aria-expanded="true"
+                            aria-controls="fluidmesh">
+                            Fluidmesh
+                        </button>
+                    </h5>
+                </div>
+    
+                <div id="fluidmesh" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Fluidmesh is an acquisition. However, support for this product is provided by dedicated Fluidmesh
+                        platform at the moment (any change will be informed in advance by Cisco) and as such we should
+                        redirect the customer to it, you can use the template available on "GSR Procedures and Templates
+                        Tool".<br><br>More information can be found on the Fluidmesh Service and Support Website
+                        https://www.cisco.com/c/en/us/services/acquisitions/fluidmesh.html<br><br>Task:
+                        https://wwwin.cisco.com/c/cec/organizations/cisco-services/ts/tso/gtc/cin/agent/tac-access/fluidmesh.html
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#meraki"
+                            aria-expanded="false" aria-controls="meraki">
+                            Meraki
+                        </button>
+                    </h5>
+                </div>
+                <div id="meraki" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Also an acquisition with its own support platform, you can use the template available on "GSR
+                        Procedures and Templates Tool".<br><br>More information can be found at
+                        https://www.cisco.com/c/en/us/services/acquisitions/meraki.html<br><br>Task:
+                        https://wwwin.cisco.com/c/cec/organizations/cisco-services/ts/tso/gtc/cin/agent/tacfl/acquisitions/meraki.html
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#duo"
+                            aria-expanded="false" aria-controls="duo">
+                            DUO Security
+                        </button>
+                    </h5>
+                </div>
+                <div id="duo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Same as with Fluidmesh and Meraki, this product is not supported by our TAC platform as it has a dedicated one which is the one that the CX should be using. You can use the template available on "GSR Procedures and Templates Tool"<br><br>More information can be found at https://www.cisco.com/c/en/us/services/acquisitions/duo.html<br><br>Task: https://wwwin.cisco.com/c/cec/organizations/cisco-services/ts/tso/gtc/cin/agent/cfl/duo-security.html 
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#securex"
+                            aria-expanded="false" aria-controls="securex">
+                            Secure X
+                        </button>
+                    </h5>
+                </div>
+                <div id="securex" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Issues on SecureX will always be entitled under bypass however try to entitle the case under contract/subscription first before bypassing entitlement, some security solutions integrating into SecureX can be used as the entitlement, like AMP for Endpoints, Cisco Umbrella, Email Security (ESA, CES), Web Security (WSA, CWS), Stealthwatch, DUO, Tetration, Meraki and ThreatGRID. 
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#smallbusiness"
+                            aria-expanded="false" aria-controls="smallbusiness">
+                            Small Business products
+                        </button>
+                    </h5>
+                </div>
+                <div id="smallbusiness" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        These devices will be entitled to support under bypass if warranty is expired or if there is no contract, we will
+                        only deny support only if device is EOL/EOS. An easy way to identify SB devices is by the PID:<br><br>
+                    
+                        Routers: RV<br>
+                    
+                        Switches: SG, SF, CBS, SLM, SRW or ESW<br>
+                    
+                        Wireless: WAP or CBW<br>
+                    
+                        Voice: (this is mostly for phones) 3PCC, MPP (Multiplatform), 3PW, 3PC, 3PD, 3PB, DBS<br>
+                    
+                        Not all products might include them, but it is a starting point to properly identify when we need to route to STAC.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#ironport"
+                            aria-expanded="false" aria-controls="ironport">
+                            IronPort
+                        </button>
+                    </h5>
+                </div>
+                <div id="ironport" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Acquisition, they work with a subscription so even if no contract is found on profile or CCW-R we can bypass
+                        entitlement for them, before bypassing please make sure to verify if there is a contract or sub. We will deny
+                        support ONLY if it is EOL/EOS.<br><br>
+                    
+                        ESA (Email Security Appliance): can be a physical device or a virtual appliance, if the CX provides a SN that has
+                        C195, C395, C695, or C695F as part of the PID this means that it is for an ESA.<br>
+                    
+                        CES (Cloud E-mail Security) and CWS (Cloud Web Security): cloud-based applications, so they won't have a serial
+                        number.<br>
+                    
+                        SMA (Security Management Appliance): as the ESA, it has physical devices or virtual appliances, if the CX provides a
+                        SN that has M195, M395, M695, or M695F as part of the PID, this will be a SMA.<br>
+                    
+                        WSA (Web Security Appliance): As the ESA and SMA, it has physical devices or virtual appliances, if the CX provides
+                        a SN that has S195, S395, S695, or S695F as part of the PID, this will be a WSA<br>
+                    
+                        Most physical appliances will be x195, x395, x695, x695F (it only changes the letter that precedes the number.)<br>
+                    
+                        Virtual appliances wont have serial numbers, but they have a VLN which works as the SN on SCM, though the system
+                        might not recognize it on CCW-R or the entitlement tab on CSOne.
+                    </div>
                 </div>
             </div>
         </div>

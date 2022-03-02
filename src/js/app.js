@@ -7,6 +7,7 @@ $( document ).ready(function() {
     $("#newCaseContent").hide();
     $("#existingCaseContent").hide();
     $("#templateContent").hide();
+    $("#procedureContent").hide();
     fetch("./src/data/data.json")
     .then(response => response.json())
     .then(data => {
@@ -19,6 +20,7 @@ function formatLandingPage(){
     $("#newCaseContent").hide();
     $("#existingCaseContent").hide();
     $("#templateContent").hide();
+    $("#procedureContent").hide();
     $("#landingPageContent").show();
 }
 
@@ -100,6 +102,7 @@ function formatTemplate(){
     $("#landingPageContent").hide();
     $("#newCaseContent").hide();
     $("#existingCaseContent").hide();
+    $("#procedureContent").hide();
     resetTemplates();
     //populateBodyTransferEngineer();
     populateBodyTransferTeamLeader();
@@ -144,6 +147,18 @@ function resetTemplates(){
     $('#bodyTransferEngineer').empty();
     $('#bodyTransferTeamLeader').empty();
     $('#bodyTransferTeamManager').empty();
+}
+
+function formatProcedure(){
+    $("#landingPageContent").hide();
+    $("#newCaseContent").hide();
+    $("#existingCaseContent").hide();
+    $("#templateContent").hide();
+    resetTemplates();
+    //populateBodyTransferEngineer();
+    populateBodyTransferTeamLeader();
+    populateBodyTransferTeamManager();
+    $("#procedureContent").show();
 }
 
 function changeCUName(){
